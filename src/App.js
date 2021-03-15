@@ -4,7 +4,8 @@ import './App.css';
 // import Basic3 from './Components/Basic3.1/Base';
 // import Basic321 from './Components/Basic3.2/Basic3.21';
 // import Buttons from './Components/Basic4.1/Buttons';
-import Cards from './Components/Basic4.2/Cards';
+// import Cards from './Components/Basic4.2/Cards';
+import Incr from './Components/Basic7.1/Incr';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       {/* <Buttons weight={700} text={'important'}></Buttons>
       <Buttons weight={300} text={'not that important'}></Buttons> */}
       
-      <Cards
+      {/* <Cards
       source = {'http://picsum.photos/200/300'}
       title = {'Netta'}
       desc = {'Netta Avidan'}
@@ -27,7 +28,10 @@ function App() {
       desc = {'Netta Avidan'}
       share = {'www.google.com'}
       explore = {'www.facebook.com'}
-      />
+      /> */}
+
+       <Incr/>
+       {/* <ClassState/> */}
 
     </div>
   );
