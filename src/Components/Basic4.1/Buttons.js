@@ -1,10 +1,11 @@
 import React from "react"
 
 
-const Button = () =>{
+const Button = (props) =>{
     return (
         <div>
-            <button>Important</button>
+            <button style= {{fontWeight: props.wight}}>{props.text}</button>
+            
         </div>
     )
 }
