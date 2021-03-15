@@ -5,7 +5,8 @@ import './App.css';
 // import Basic321 from './Components/Basic3.2/Basic3.21';
 // import Buttons from './Components/Basic4.1/Buttons';
 // import Cards from './Components/Basic4.2/Cards';
-import Incr from './Components/Basic7.1/Incr';
+// import Incr from './Components/Basic7.1/Incr';
+import Hide from './Components/Basic7.2/Hide';
 
 function App() {
   return (
@@ -13,8 +14,8 @@ function App() {
       {/* <Basic22></Basic22> */}
       {/* <Basic3></Basic3> */}
       {/* <Buttons weight={700} text={'important'}></Buttons>
-      <Buttons weight={300} text={'not that important'}></Buttons> */}
-      
+      <Buttons weight={300} text={'not that important'}></Buttons>
+       */}
       {/* <Cards
       source = {'http://picsum.photos/200/300'}
       title = {'Netta'}
@@ -30,8 +31,10 @@ function App() {
       explore = {'www.facebook.com'}
       /> */}
 
-       <Incr/>
+       {/* <Incr/> */}
        {/* <ClassState/> */}
+       
+       <Hide/>
 
     </div>
   );
