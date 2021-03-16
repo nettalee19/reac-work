@@ -8,6 +8,7 @@ class Life extends React.Component{
         this.state = {
             favoriteColor: "Blue"
         }
+        this.updateN = React.createRef()
     }
 
     componentDidMount(){
@@ -19,13 +20,14 @@ class Life extends React.Component{
     componentDidUpdate(){
         // this.setState({favoriteColor: "Pink"})
         console.log("called")
+        this.updateN.current.innerHTML = "the updated color is: " + this.state.favoriteColor
     }
 
     render(){
         return(
             <div>
                 <h1>My favorite color is: {this.state.favoriteColor}</h1>
-                <div id="note"></div>
+                <div ref={this.updateN}></div>
             </div>
         );
     }
