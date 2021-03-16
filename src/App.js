@@ -6,7 +6,8 @@ import './App.css';
 // import Buttons from './Components/Basic4.1/Buttons';
 // import Cards from './Components/Basic4.2/Cards';
 // import Incr from './Components/Basic7.1/Incr';
-import Hide from './Components/Basic7.2/Hide';
+// import Hide from './Components/Basic7.2/Hide';
+import Life from './Components/Basic8.1/Life';
 
 function App() {
   return (
@@ -34,7 +35,9 @@ function App() {
        {/* <Incr/> */}
        {/* <ClassState/> */}
        
-       <Hide/>
+       {/* <Hide/> */}
+
+       <Life/>
 
     </div>
   );
