@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 300px;
+    height: 250px;
+    background-color: rgb(214, 65, 90);
+    margin-left: 550px;
+
+    animation: move 5s infinite;
+}
+
+  
+@keyframes move {
+    from {left: -100px;}
+    to {left: 0px;}
+}
+

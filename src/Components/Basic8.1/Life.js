@@ -18,7 +18,6 @@ class Life extends React.Component{
     }
 
     componentDidUpdate(){
-        // this.setState({favoriteColor: "Pink"})
         console.log("called")
         this.updateN.current.innerHTML = "the updated color is: " + this.state.favoriteColor
     }

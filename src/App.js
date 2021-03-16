@@ -7,7 +7,8 @@ import './App.css';
 // import Cards from './Components/Basic4.2/Cards';
 // import Incr from './Components/Basic7.1/Incr';
 // import Hide from './Components/Basic7.2/Hide';
-import Life from './Components/Basic8.1/Life';
+// import Life from './Components/Basic8.1/Life';
+import Box from './Components/Basic8.2/Box';
 
 function App() {
   return (
@@ -37,7 +38,8 @@ function App() {
        
        {/* <Hide/> */}
 
-       <Life/>
+       {/* <Life/> */}
+       <Box/>
 
     </div>
   );
