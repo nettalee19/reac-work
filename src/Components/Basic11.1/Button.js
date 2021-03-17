@@ -2,16 +2,18 @@ import react from 'react';
 
 
 class UserItem extends react.Component {
-    ButttonColorsHandler = (e) =>{
-      
-        this.props.ParentColorHandler(e.target.value)     
-       
-     }
+    state = {
+        color:this.props.value
+    }
+
+    choose(){
+        this.props.chooseColor(e.target.textContent)
+    }
      
      render() {
          return (
              <div>
-                 <button className={this.props.color} onClick={this.ButttonColorsHandler} type="button" value={this.props.color}>{this.props.color}</button>
+                 <button style={{backgroundColor:this.props.value}} onClick={(e)=>this.getColor(e)}>{this.props.value}</button>
              </div>
          )
      }

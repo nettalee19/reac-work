@@ -5,8 +5,8 @@ class ColorButton extends Component {
     constructor(){
         super();
         this.state ={
-            Colors : ["blue","red","yellow"],
-            color: "",
+            Colors : ["blue", "red" ,"yellow"],
+            color: " ",
         }
     }
     
@@ -19,9 +19,9 @@ class ColorButton extends Component {
     render() {
         return (
             <div>
-                <input type={'button'} onClick={this.chooseColor} value={"aa"}/>
+                {this.state.Colors.map(btn => (<Button value={btn.color} choose={this.chooseColor}))}
                 
-                <div>The color selected is: {this.state.color}</div>
+                // <div>The color selected is: {this.state.color}</div>
                 
             </div>
         );
