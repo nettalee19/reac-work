@@ -11,6 +11,7 @@ import './App.css';
 // import Box from './Components/Basic8.2/Box';
 // import Box from './Components/Basic8.3/BoxColor';
 import ColorButton from './Components/Basic11.1/ColorButton';
+// import Form from './Components/Basic11.2/Form';
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
        {/* <Box/> */}
 
        <ColorButton/>
+       {/* <Form/> */}
 
     </div>
   );
