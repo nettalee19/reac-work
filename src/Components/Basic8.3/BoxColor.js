@@ -1,32 +1,32 @@
-import React from "react"
-import './style.css'
+import React, { Component } from 'react';
 
-class Box extends React.Component{
+const colors = ['#FFC715', '#C7E568', '#17CBC9', '#FFC711', '#ED4C77']
 
+class Box extends Component {
     constructor(){
         super();
-        this.state = {
-            
-        }
-        
+
+        this.interval = null;
+        this.state = { index : 0 }
+    }
+    
+
+    
+    componentDidMount() {
+        this.interval = setInterval(() => {
+            this.setState({ index: (this.state.index + 1) % 5 })
+        }, 700);    
     }
 
-    // componentDidMount(){
-    //     setTimeout(() =>{
-    //         this.setState({favoriteColor: "Orange"})
-    //     }, 1000)
-    // }
-
-    // componentDidUpdate(){
-    //     // this.setState({favoriteColor: "Pink"})
-    //     console.log("called")
-    //     this.updateN.current.innerHTML = "the updated color is: " + this.state.favoriteColor
-    // }
-
-    render(){
-        return(
-            <div className="box">
-                
+    render() {
+        return (
+            <div
+                style={{
+                    width: '200px',
+                    height: '200px',
+                    backgroundColor: colors[this.state.index]
+                }}
+            >
             </div>
         );
     }
