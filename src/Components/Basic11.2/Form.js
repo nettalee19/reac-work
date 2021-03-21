@@ -17,13 +17,13 @@ class CheckedForm extends react.Component {
      
      render() {
          return (
-             <div>
-                 {
-                     this.state.terms.map((p) =>{
-                         return<Check key={p} value={p.value} isChecked={p.isChecked}>
-                     })
-                 }
-             </div>
+            //  <div>
+            //      {
+            //          this.state.terms.map((p) =>{
+            //              return<Check key={p} value={p.value} isChecked={p.isChecked}>
+            //          })
+            //      }
+            //  </div>
          )
      }
 }

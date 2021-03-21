@@ -10,8 +10,10 @@ import './App.css';
 // import Life from './Components/Basic8.1/Life';
 // import Box from './Components/Basic8.2/Box';
 // import Box from './Components/Basic8.3/BoxColor';
-import ColorButton from './Components/Basic11.1/ColorButton';
+// import ColorButton from './Components/Basic11.1/ColorButton';
 // import Form from './Components/Basic11.2/Form';
+// import Test from './Components/Test';
+import Chuck from './Components/Basic12.1/Chuck';
 
 function App() {
   return (
@@ -44,8 +46,10 @@ function App() {
        {/* <Life/> */}
        {/* <Box/> */}
 
-       <ColorButton/>
+       {/* <ColorButton/> */}
        {/* <Form/> */}
+       {/* <Test/> */}
+       <Chuck/>
 
     </div>
   );
