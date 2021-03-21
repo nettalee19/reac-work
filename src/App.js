@@ -13,7 +13,8 @@ import './App.css';
 // import ColorButton from './Components/Basic11.1/ColorButton';
 // import Form from './Components/Basic11.2/Form';
 // import Test from './Components/Test';
-import Chuck from './Components/Basic12.1/Chuck';
+// import Chuck from './Components/Basic12.1/Chuck';
+import DataMas from './Components/Basic13.1/DataMas';
 
 function App() {
   return (
@@ -49,7 +50,8 @@ function App() {
        {/* <ColorButton/> */}
        {/* <Form/> */}
        {/* <Test/> */}
-       <Chuck/>
+       {/* <Chuck/> */}
+       <DataMas/>
 
     </div>
   );
