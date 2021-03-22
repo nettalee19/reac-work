@@ -16,7 +16,8 @@ import './App.css';
 // import Chuck from './Components/Basic12.1/Chuck';
 // import DataMas from './Components/Basic13.1/DataMas';
 // import Avatar from './Components/Basic13.2/Avatar';
-import Focus from './Components/Basic14.1/Focus'
+// import Focus from './Components/Basic14.1/Focus'
+import Copy from './Components/Basic14.2/Copy'
 
 
 function App() {
@@ -56,7 +57,8 @@ function App() {
        {/* <Chuck/> */}
        {/* <DataMas/> */}
        {/* <Avatar/> */}
-      <Focus/>
+      {/* <Focus/> */}
+      <Copy/>
        
 
     </div>
