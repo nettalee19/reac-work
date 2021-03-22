@@ -14,7 +14,10 @@ import './App.css';
 // import Form from './Components/Basic11.2/Form';
 // import Test from './Components/Test';
 // import Chuck from './Components/Basic12.1/Chuck';
-import DataMas from './Components/Basic13.1/DataMas';
+// import DataMas from './Components/Basic13.1/DataMas';
+// import Avatar from './Components/Basic13.2/Avatar';
+import Focus from './Components/Basic14.1/Focus'
+
 
 function App() {
   return (
@@ -51,7 +54,10 @@ function App() {
        {/* <Form/> */}
        {/* <Test/> */}
        {/* <Chuck/> */}
-       <DataMas/>
+       {/* <DataMas/> */}
+       {/* <Avatar/> */}
+      <Focus/>
+       
 
     </div>
   );
