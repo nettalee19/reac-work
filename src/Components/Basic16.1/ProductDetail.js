@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 // import Products from './Products';
 import store from './store'
-// import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 export default class ProductPage extends Component {
     // state= {id: this.props.id}
@@ -21,11 +21,11 @@ export default class ProductPage extends Component {
                <img src={this.state.products[this.state.id-1].imageUrl} alt=""/>
                <p>{this.state.products[this.state.id-1].price}$</p>
                <p>{this.state.products[this.state.id-1].size}</p>
+               <Link to="/products">back to Products</Link>
             </div>
-            // <div>
-            //     <Link to="/products">Products</Link>
+            
 
-            // </div>
+            
         )
     }
 }
