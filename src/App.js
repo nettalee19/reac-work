@@ -18,7 +18,8 @@ import './App.css';
 // import Avatar from './Components/Basic13.2/Avatar';
 // import Focus from './Components/Basic14.1/Focus'
 // import Copy from './Components/Basic14.2/Copy'
-import Ecomm from './Components/Basic16.1/Ecomm'
+// import Ecomm from './Components/Basic16.1/Ecomm'
+import CRUD from './Components/Basic17.1/CRUD'
 
 
 function App() {
@@ -62,7 +63,8 @@ function App() {
       {/* <Focus/> */}
       {/* <Copy/> */}
 
-      <Ecomm/>
+      {/* <Ecomm/> */}
+      <CRUD/>
        
 
     </div>
