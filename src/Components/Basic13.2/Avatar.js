@@ -12,9 +12,15 @@ export default class Avatar extends React.Component{
     }
 
     getAvatars = async() =>{
-        const response = await axios.get('https://randomuser.me/')
-        this.setState({people: response.data})
-        // console.log({people})
+        const response = await axios.get('https://randomuser.me/api/?results=10')
+        this.setState({people: response.data.results.map(user=>{
+            return({
+                name: user.name.first + user.name.last,
+                avatar: user.picture.large
+
+            })
+        })})
+        
     }
     
 

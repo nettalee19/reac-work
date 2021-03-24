@@ -15,10 +15,10 @@ import './App.css';
 // import Test from './Components/Test';
 // import Chuck from './Components/Basic12.1/Chuck';
 // import DataMas from './Components/Basic13.1/DataMas';
-import Avatar from './Components/Basic13.2/Avatar';
+// import Avatar from './Components/Basic13.2/Avatar';
 // import Focus from './Components/Basic14.1/Focus'
 // import Copy from './Components/Basic14.2/Copy'
-// import Ecomm from './Components/Basic16.1/Ecomm'
+import Ecomm from './Components/Basic16.1/Ecomm'
 
 
 function App() {
@@ -57,12 +57,12 @@ function App() {
        {/* <Test/> */}
        {/* <Chuck/> */}
        {/* <DataMas/> */}
-       <Avatar/>
+       {/* <Avatar/> */}
 
       {/* <Focus/> */}
       {/* <Copy/> */}
 
-      {/* <Ecomm/> */}
+      <Ecomm/>
        
 
     </div>
