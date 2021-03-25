@@ -4,7 +4,7 @@ export default class CRUD extends Component {
     render() {
         return (
             <div>
-                hello tulila
+                hello tulila2
             </div>
         )
     }
