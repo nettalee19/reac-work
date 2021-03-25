@@ -57,6 +57,7 @@ function App() {
        {/* <Form/> */}
        {/* <Test/> */}
        {/* <Chuck/> */}
+
        {/* <DataMas/> */}
        {/* <Avatar/> */}
 
