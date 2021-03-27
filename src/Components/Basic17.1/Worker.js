@@ -9,7 +9,7 @@ export default class Worker extends Component {
             <div>
                 <ul className="worker_ul">
                     <img className="worker_img" src={this.props.worker.img} alt=""/>
-                    <li className="worker">Name: {this.props.worker.name}</li>
+                    <li className="worker">Name: <a href="">{this.props.worker.name}</a></li>
                     <li className="worker">Department: {this.props.worker.department}</li>
                     <li className="worker">Age: {this.props.worker.age}</li>
                 </ul>

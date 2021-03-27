@@ -1,5 +1,5 @@
 //import logo from './logo.svg';
-import './App.css';
+// import './App.css';
 // import Basic22 from './Components/Basic2.2/Basic2.2';
 // import Basic3 from './Components/Basic3.1/Base';
 // import Basic321 from './Components/Basic3.2/Basic3.21';
@@ -11,6 +11,7 @@ import './App.css';
 // import Box from './Components/Basic8.2/Box';
 // import Box from './Components/Basic8.3/BoxColor';
 // import ColorButton from './Components/Basic11.1/ColorButton';
+// import BtnColor from './Components/Basic11.1/BtnColor';
 // import Form from './Components/Basic11.2/Form';
 // import Test from './Components/Test';
 // import Chuck from './Components/Basic12.1/Chuck';
@@ -54,6 +55,8 @@ function App() {
        {/* <Box/> */}
 
        {/* <ColorButton/> */}
+       {/* <BtnColor/> */}
+
        {/* <Form/> */}
        {/* <Test/> */}
        {/* <Chuck/> */}

@@ -1,13 +1,15 @@
 .worker_ul{
     display: grid;
     grid-template-columns: auto;
+    
 }
 
-.worker{
+/* .worker{
     color:rgb(104, 201, 104);
     display: flex;
     justify-content: center;
-}
+    text-decoration: none;
+} */
 
 .worker_img{
     height: 200px;

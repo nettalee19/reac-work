@@ -1,13 +1,16 @@
 import React, { Component } from 'react'
 import Worker from './Worker'
-import axios from 'axios'
+import Search from './Search'
+// import Add from './Add'
 import Style from './Style.css'
+import axios from 'axios'
 
 export default class CRUD extends Component {
     constructor(){
         super();
         this.state= {
             workers: [],
+            newWorker:'',
         }
     }
 
@@ -28,15 +31,40 @@ export default class CRUD extends Component {
     //     const office = await axios.get(`https://605c7a146d85de00170da501.mockapi.io/api/paper/TheOffice/${e.target.value}`)
     //     console.log(office)
     // }
+
+    addWorker(){
+        const newPerson={
+            id: 1+Math.random(),
+            department: '',
+            age: Math.random(),
+
+        }
+        const workers = [...this.state.workers]
+
+        workers.push(newPerson)
+
+        this.setState({
+            workers,
+            newWorker: ''
+        })
+    }
     
 
     render() {
         return (
             <div>
+                <Search/><br/>
                 The Office Workers:
                 {this.state.workers.map(worker =>{
                     return <Worker worker={worker} key={worker.id}/>
                 })}
+
+                <button onClick={() => this.addWorker()}>Add new worker</button>
+
+                {/* {this.state.workers.map(worker =>{
+                    return <Add worker={worker} key={worker.id}/>
+                })} */}
+                {/* <button><Add/></button> */}
             </div>
         )
     }
