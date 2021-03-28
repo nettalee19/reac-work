@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Worker from './Worker'
-import Search from './Search'
+// import Search from './Search'
 // import Add from './Add'
 import Style from './Style.css'
 import axios from 'axios'
@@ -36,7 +36,7 @@ export default class CRUD extends Component {
         const newPerson={
             id: 1+Math.random(),
             department: '',
-            age: Math.random(),
+            age: Math.random()*10,
 
         }
         const workers = [...this.state.workers]
@@ -48,12 +48,19 @@ export default class CRUD extends Component {
             newWorker: ''
         })
     }
+
+    // const 
+    // chSearch=(event) =>{
+    //     console.log(event)
+    // }
     
 
     render() {
         return (
             <div>
-                <Search/><br/>
+                {/* onChange={event => chSearch(event.target.value)} */}
+                <input type="text" placeholder="serach here..." /><br/> 
+                {/* <Search/><br/> */}
                 The Office Workers:
                 {this.state.workers.map(worker =>{
                     return <Worker worker={worker} key={worker.id}/>

@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Delete from './Delete'
 
 export default class Worker extends Component {
     // state= {name: this.props.name}
@@ -12,6 +13,7 @@ export default class Worker extends Component {
                     <li className="worker">Name: <a href="">{this.props.worker.name}</a></li>
                     <li className="worker">Department: {this.props.worker.department}</li>
                     <li className="worker">Age: {this.props.worker.age}</li>
+                    <li><Delete/></li>
                 </ul>
                 {/* <p>{this.props.worker.name}</p> */}
             </div>
