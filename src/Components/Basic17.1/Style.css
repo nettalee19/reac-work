@@ -1,6 +1,13 @@
+.allPeople{
+    display: flex;
+    flex-direction: row;
+}
+
 .worker_ul{
-    display: grid;
+    /* display: grid;
     grid-template-columns: auto;
+     */
+     
     
 }
 
