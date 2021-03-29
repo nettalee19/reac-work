@@ -21,7 +21,8 @@
 // import Copy from './Components/Basic14.2/Copy'
 // import Ecomm from './Components/Basic16.1/Ecomm'
 // import CRUD from './Components/Basic17.1/CRUD'
-import Hooks from './Components/Basic18.1/Hooks'
+// import Hooks from './Components/Basic18.1/Hooks'
+import Todo from './Components/Basic18.2/Todo'
 
 
 function App() {
@@ -71,7 +72,8 @@ function App() {
       {/* <Ecomm/> */}
       {/* <CRUD/> */}
 
-      <Hooks/>
+      {/* <Hooks/> */}
+      <Todo/>
        
 
     </div>

@@ -16,7 +16,7 @@ function Hooks() {
     return (
         <div>
             <br/>
-            <Info items={items} length={length}/>
+            <Info items={items}/>
         </div>
     )
 }

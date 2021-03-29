@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 // import { act } from 'react-dom/test-utils';
 
-const Info = ({items, length}) => {
+const Info = ({items}) => {
     const [activeIndex, setActiveIndex] = useState(null);
     
     const onTitleClick = () =>{
