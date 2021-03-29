@@ -34,23 +34,7 @@ export default class CRUD extends Component {
     //     console.log(office)
     // }
 
-    addWorker(){
-        const newPerson={
-            id: 1+Math.random(),
-            name: '',
-            department: '',
-            age: Math.random()*10,
 
-        }
-        const workers = [...this.state.workers]
-
-        workers.push(newPerson)
-
-        this.setState({
-            workers,
-            newWorker: ''
-        })
-    }
 
     // const 
     // chSearch=(event) =>{
@@ -93,12 +77,31 @@ export default class CRUD extends Component {
     // }
 
     addNewWorker= (newPerson)=>{
-        this.setState({
+        // this.setState
+        const newSomeone=({
             id: newPerson.id,
             name: newPerson.name,
             department: newPerson.department,
             age: newPerson.age,
         })
+        const workers = [...this.state.workers]
+
+        workers.push(newSomeone)
+
+        this.setState({
+            workers,
+            newWorker: ''
+        })
+    }
+
+    addWorker(){
+        const newPerson={
+            id: 1+Math.random(),
+            name: '',
+            department: '',
+            age: Math.random()*10,
+
+        }
         const workers = [...this.state.workers]
 
         workers.push(newPerson)
@@ -108,6 +111,13 @@ export default class CRUD extends Component {
             newWorker: ''
         })
     }
+
+
+
+
+
+
+
 
     render() {
         return (

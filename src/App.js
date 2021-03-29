@@ -14,13 +14,14 @@
 // import BtnColor from './Components/Basic11.1/BtnColor';
 // import Form from './Components/Basic11.2/Form';
 // import Test from './Components/Test';
-import Chuck from './Components/Basic12.1/Chuck';
+// import Chuck from './Components/Basic12.1/Chuck';
 // import DataMas from './Components/Basic13.1/DataMas';
 // import Avatar from './Components/Basic13.2/Avatar';
 // import Focus from './Components/Basic14.1/Focus'
 // import Copy from './Components/Basic14.2/Copy'
 // import Ecomm from './Components/Basic16.1/Ecomm'
-import CRUD from './Components/Basic17.1/CRUD'
+// import CRUD from './Components/Basic17.1/CRUD'
+import Hooks from './Components/Basic18.1/Hooks'
 
 
 function App() {
@@ -68,7 +69,9 @@ function App() {
       {/* <Copy/> */}
 
       {/* <Ecomm/> */}
-      <CRUD/>
+      {/* <CRUD/> */}
+
+      <Hooks/>
        
 
     </div>
