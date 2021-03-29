@@ -22,7 +22,8 @@
 // import Ecomm from './Components/Basic16.1/Ecomm'
 // import CRUD from './Components/Basic17.1/CRUD'
 // import Hooks from './Components/Basic18.1/Hooks'
-import Todo from './Components/Basic18.2/Todo'
+// import Todo from './Components/Basic18.2/Todo'
+import Time from './Components/Basic18.3/Time'
 
 
 function App() {
@@ -73,7 +74,8 @@ function App() {
       {/* <CRUD/> */}
 
       {/* <Hooks/> */}
-      <Todo/>
+      {/* <Todo/> */}
+      <Time/>
        
 
     </div>
