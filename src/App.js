@@ -23,7 +23,8 @@
 // import CRUD from './Components/Basic17.1/CRUD'
 // import Hooks from './Components/Basic18.1/Hooks'
 // import Todo from './Components/Basic18.2/Todo'
-import Time from './Components/Basic18.3/Time'
+// import Time from './Components/Basic18.3/Time'
+import Check from './Components/Basic18.4/Check'
 
 
 function App() {
@@ -75,7 +76,8 @@ function App() {
 
       {/* <Hooks/> */}
       {/* <Todo/> */}
-      <Time/>
+      {/* <Time/> */}
+      <Check/>
        
 
     </div>
