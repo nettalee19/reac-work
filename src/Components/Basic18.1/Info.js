@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 // import { act } from 'react-dom/test-utils';
 
-const Info = ({items}) => {
+const Info = ({items, length}) => {
     const [activeIndex, setActiveIndex] = useState(null);
     
     const onTitleClick = () =>{
@@ -35,15 +35,13 @@ const Info = ({items}) => {
 
 
     return (
-        // <div>
-        //     {items.length}
-            
-        // </div>
+       
         <div className="ui styled accordion">
             {renderedItems}
             {/* {activeIndex} */}
         </div>
-    )
+
+           )
 }
 
 export default Info
