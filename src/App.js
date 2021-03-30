@@ -27,7 +27,8 @@
 // import Check from './Components/Basic18.4/Check'
 // import Fetch from './Components/Basic19.1/Fetch'
 // import Country from './Components/Basic19.2/Country'
-import Alogolia from './Components/Basic19.3/Alogolia'
+// import Alogolia from './Components/Basic19.3/Alogolia'
+import Chuck from './Components/Basic19.4/Chuck'
 
 
 function App() {
@@ -84,7 +85,8 @@ function App() {
 
       {/* <Fetch/> */}
       {/* <Country/> */}
-      <Alogolia/>
+      {/* <Alogolia/> */}
+      <Chuck/>
        
 
     </div>
