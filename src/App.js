@@ -24,7 +24,8 @@
 // import Hooks from './Components/Basic18.1/Hooks'
 // import Todo from './Components/Basic18.2/Todo'
 // import Time from './Components/Basic18.3/Time'
-import Check from './Components/Basic18.4/Check'
+// import Check from './Components/Basic18.4/Check'
+import Fetch from './Components/Basic19.1/Fetch'
 
 
 function App() {
@@ -77,7 +78,9 @@ function App() {
       {/* <Hooks/> */}
       {/* <Todo/> */}
       {/* <Time/> */}
-      <Check/>
+      {/* <Check/> */}
+
+      <Fetch/>
        
 
     </div>

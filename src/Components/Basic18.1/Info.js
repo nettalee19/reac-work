@@ -2,43 +2,30 @@ import React, {useState} from 'react'
 // import { act } from 'react-dom/test-utils';
 
 const Info = ({items}) => {
-    const [activeIndex, setActiveIndex] = useState(null);
-    
-    const onTitleClick = () =>{
-        setActiveIndex(!activeIndex)
+    const text = items.text;
+    const maxLength = items.maxLength;
+
+    const[isText, setIsText] = useState(true);
+
+    const readMore =() =>{
+        setIsText(!isText)
     }
 
-    const renderedItems = items.map((item, index) =>{
-        const active = index === activeIndex ? 'active' : '';
-
-        return (
-        <React.Fragment key={item.text1}>
-
-            <div className={`title ${active}`} onClick={() => onTitleClick(index)} >
-                {item.text}
-                {/* <i className="dropdown icon"></i> */}
-                <p>show more</p>
-                
-            </div>
-
-            <div className={`content ${active}`}>
-                <p>{item.text} </p>
-
-                <div className={`${active}`} onClick={() => onTitleClick(index)}>
-                    <p>show less</p>
-
-                </div>
-                
-            </div>
-        </React.Fragment>)
-    })
-
+    const displayText = (text, maxLength) =>{
+        return(
+            <p>
+                {isText ? text.slice(0, maxLength) : text}
+                <span onClick={readMore}>
+                    {isText ? "show more" : "show less"}
+                </span>
+            </p>
+        )
+    }
 
     return (
        
-        <div className="ui styled accordion">
-            {renderedItems}
-            {/* {activeIndex} */}
+        <div>
+            <p>{displayText(text, maxLength)}</p>
         </div>
 
            )
