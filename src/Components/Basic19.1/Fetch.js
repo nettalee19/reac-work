@@ -8,7 +8,7 @@ function Fetch() {
     useEffect(() =>{
         const someMovies = async () =>{
             const movies = await axios.get('https://swapi.dev/api/films/1/')
-            console.log(movies.data)
+            // console.log(movies.data)
             setShowMovie(movies.data)
         }
         someMovies()
@@ -16,12 +16,8 @@ function Fetch() {
 
     return (
         <div>
-            {/* {
-                showMovie.map((m) =>{
-                    return <div>{m}</div>
-                })
-
-            } */}
+            <p>Movie: {showMovie.title}</p>
+            <p>director: {showMovie.director}</p>
             
         </div>
     )

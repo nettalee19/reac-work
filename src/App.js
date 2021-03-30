@@ -25,7 +25,8 @@
 // import Todo from './Components/Basic18.2/Todo'
 // import Time from './Components/Basic18.3/Time'
 // import Check from './Components/Basic18.4/Check'
-import Fetch from './Components/Basic19.1/Fetch'
+// import Fetch from './Components/Basic19.1/Fetch'
+import Country from './Components/Basic19.2/Country'
 
 
 function App() {
@@ -80,7 +81,8 @@ function App() {
       {/* <Time/> */}
       {/* <Check/> */}
 
-      <Fetch/>
+      {/* <Fetch/> */}
+      <Country/>
        
 
     </div>
