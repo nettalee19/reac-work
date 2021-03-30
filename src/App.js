@@ -26,7 +26,8 @@
 // import Time from './Components/Basic18.3/Time'
 // import Check from './Components/Basic18.4/Check'
 // import Fetch from './Components/Basic19.1/Fetch'
-import Country from './Components/Basic19.2/Country'
+// import Country from './Components/Basic19.2/Country'
+import Alogolia from './Components/Basic19.3/Alogolia'
 
 
 function App() {
@@ -82,7 +83,8 @@ function App() {
       {/* <Check/> */}
 
       {/* <Fetch/> */}
-      <Country/>
+      {/* <Country/> */}
+      <Alogolia/>
        
 
     </div>
