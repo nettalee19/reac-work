@@ -28,7 +28,10 @@
 // import Fetch from './Components/Basic19.1/Fetch'
 // import Country from './Components/Basic19.2/Country'
 // import Alogolia from './Components/Basic19.3/Alogolia'
-import Chuck from './Components/Basic19.4/Chuck'
+// import Chuck from './Components/Basic19.4/Chuck'
+// import Cancel from './Components/Basic20.1/Cancel'
+// import Editing from './Components/Basic21.1/Editing'
+import Video from './Components/Basic21.2/Video'
 
 
 function App() {
@@ -86,8 +89,11 @@ function App() {
       {/* <Fetch/> */}
       {/* <Country/> */}
       {/* <Alogolia/> */}
-      <Chuck/>
+      {/* <Chuck/> */}
        
+      {/* <Cancel/> */}
+      {/* <Editing/> */}
+      <Video/>
 
     </div>
   );

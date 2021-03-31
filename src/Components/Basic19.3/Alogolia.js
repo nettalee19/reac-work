@@ -19,7 +19,7 @@ function Alogolia() {
 
     useEffect(() =>{
         algoliaApi()
-        //console.log(request)
+        console.log(request)
         //eslint-disable-next-line react-hooks/exhaustive-deps
     }, [query])
 
@@ -38,13 +38,17 @@ function Alogolia() {
             <input type="text" onChange={(e) => {searchValue(e)}}/>
             <input type="button" value="search" onClick={getNewQuery}/>
             
+        {request.length === 0 ? <h1>Loading...</h1> : request.map((r) =>{
+                    return <div>{r.title}</div>
+                })}
+            
             {/* {
                 request.map((r) =>{
                     return <div>{r.title}</div>
                 })
             } */}
             
-            {   
+            {/* {   
                 request == null? 
                 (<div>Loading</div>):(
                     request.map((info) =>{
@@ -62,7 +66,7 @@ function Alogolia() {
 
                 )
 
-            }
+            } */}
            
         </div>
     )
