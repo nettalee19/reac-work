@@ -31,7 +31,8 @@
 // import Chuck from './Components/Basic19.4/Chuck'
 // import Cancel from './Components/Basic20.1/Cancel'
 // import Editing from './Components/Basic21.1/Editing'
-import Video from './Components/Basic21.2/Video'
+// import Video from './Components/Basic21.2/Video'
+import Image from './Components/Basic21.3/Image'
 
 
 function App() {
@@ -93,7 +94,8 @@ function App() {
        
       {/* <Cancel/> */}
       {/* <Editing/> */}
-      <Video/>
+      {/* <Video/> */}
+      <Image/>
 
     </div>
   );

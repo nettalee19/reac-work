@@ -15,7 +15,7 @@ export default function Video() {
         <div>
             <input type="button" value="play" onClick={playV}/>
             <input type="button" value="pause" onClick={pauseV}/>
-            <video ref={videoRef} width="1000" height="800" controls>
+            <video ref={videoRef} width="500" height="400" controls>
                 <source src={video} type="video/mp4"/>
             </video>
         </div>
